@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.janastu.heritageapp.geoheritagev2.client" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.NETWORK" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+
+
+
+        </activity>
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.CaptureVideoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_capture_video" >
+
+
+
+        </activity>
+
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.CaptureAudioActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_capture_audio" />
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.CaptureImageActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_capture_image" />
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.ListFileUpLoadActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_list_file_up_load" />
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.GreetingActvity"
+            android:label="@string/title_activity_greeting_actvity" >
+
+
+
+
+        </activity>
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="org.janastu.heritageapp.geoheritagev2.client.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_splash" >
+
+        </activity>
+    </application>
+
+</manifest>
